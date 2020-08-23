@@ -153,7 +153,7 @@ x1[i]:=0; x2[i]:=0; {Orte zu Null setzen}
 v1[i]:=0; v2[i]:=0; {Geschwindigkeiten zu Null setzen}
 end;
 i:=0; {Laufvariable: Beginn der Zählung der Orte und der Geschwindigkeiten}
-c:=1.4; {Sqrt(1/muo/epo);{m/s} {Hier Propagationsgeschwindigkeit einsetzen}
+c:=1.4; {Sqrt(1/muo/epo)};{m/s} {Hier Propagationsgeschwindigkeit einsetzen}
 Q1:=3E-5{C}; Q2:=3E-5{C}; {Ladungen der beiden Körper}
 D:=2.7;{N/m} {Federkonstante}
 RLL:=8.0;{m} {Ruhelage-Länge der Feder} {Ruhelage-Positionen bei +/-RLL/2}
