@@ -496,7 +496,7 @@ Begin {Hauptprogramm}
   Writeln(' t/[sec.] | Uc/[V] | ');
 
 
-  {R:=2000; {Erhöhter Widerstandswert zum Testen}
+{R:=2000;} {Erhöhter Widerstandswert zum Testen}
   For i:=1 To N Do
     Begin
       Qpp[i] := -1/L/C*Q[i-1]-R/2/L*Qp[i-1];
