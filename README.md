@@ -6,3 +6,14 @@ The folder "originals" contains all the simulation calculations from his paper s
 You can find some of his research including the mentioned papers under https://web.archive.org/web/20180917161851/https://www2.ostfalia.de/cms/de/pws/turtur/FundE.
 
 "program_04" contains the EMDR-Converter (electro-mechanical-double-resonance-converter) simulation program.
+
+## Lazarus IDE specific information (Free Pascal)
+If you want to run the programs with a free pascal compiler and IDE instead of using the proprietary Delphi IDE by Borlands, you should use Lazarus IDE (https://www.lazarus-ide.org/). It uses the FPC, free pascal compiler.
+After downloading and installing Lazarus you have to convert the .pas files into a Lazarus project (.lpr, this will create multiple files): 
+Open the .lpr or .pas file with Lazarus. Then: Project -> New Project from File -> Select .pas or any Delphi file.
+The directory "lazarus" already contains the .lpr files, which are essentially the same as .pas files.
+Then compile the program. It will detect an error stating it cannot find the Graphics and Interface module.
+You have to include the LCLBase and LCL package in the project inspector: 
+Project -> Project inspector -> Add -> New requirement -> Choose LCLBase and also choose LCL.
+All variables of data type Real48 are changed to be Double types, otherwise errors occur. This code change is already done in the code in directory "lazarus".
+There could occur an error in "program_04/KM_009i.lpr", probably because of some assignment statements on files (schonda).
