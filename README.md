@@ -25,5 +25,5 @@ Project -> Project inspector -> Add -> New requirement -> Choose LCLBase and als
 All variables of data type Real48 are changed to be Double types, otherwise errors occur. This code change is already done in the code in directory "lazarus".
 There could occur an error in "program_04/KM_009i.lpr", probably because of some assignment statements on files (schonda).
 
-## Telegram Group
+## Telegram Group for questions and discussion
 If you have any questions regarding Vacuum Energy, the Software etc. feel free to join the Telegram group "Vacuum Energy Claus W. Turtur" through the following link: https://t.me/joinchat/H1wG1h0fGV_Ehk6U5ciD4A.
