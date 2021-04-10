@@ -4,6 +4,7 @@ Prof. Dr. rer. nat. Claus W. Turtur researched in the field of vacuum energy or 
 The directory "originals" contains all the simulation calculations from his paper series "1_Serie-deutsch-5Artikel.pdf" (or "1_Series-english-5Articles.pdf").
 
 You can find some of his research including the mentioned papers here: https://web.archive.org/web/20180917161851/https://www2.ostfalia.de/cms/de/pws/turtur/FundE.
+
 And here you'll find the updated and corrected paper in section 3: https://www.ostfalia.de/cms/en/pws/turtur/details-in-physics/.
 
 "program_04" contains the EMDR-Converter (electro-mechanical-double-resonance-converter) simulation program.
